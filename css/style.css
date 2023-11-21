@@ -1,0 +1,483 @@
+@import url("https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lato&family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Work Sans";
+}
+
+nav {
+  background-color: #fff;
+}
+
+.nav-container {
+  min-height: 50px;
+  display: flex;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.logo-container {
+  display: flex;
+  width: 50%;
+}
+
+.logo-container img {
+  width: 80.041px;
+  height: 30px;
+  margin: 32px 10px 0px 0px;
+}
+
+.logo-container p {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+}
+
+.nav-items-container {
+  width: 50%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.nav-items-container a {
+  text-decoration: none;
+  font-size: 20px;
+  color: black;
+}
+
+.nav-items-container .follow-us {
+  border-radius: 8px;
+  background: rgba(11, 2, 35, 0.1);
+  padding: 10px 20px;
+  color: black;
+  text-align: center;
+}
+
+.youtube-logo {
+  color: red;
+  margin: 0 10px;
+}
+
+/* nev design ends here */
+.section-banner-container {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.13%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+}
+
+.banner-container {
+  margin: 0px auto 0;
+  max-width: 1200px;
+  display: flex;
+  background-color: #fff;
+}
+
+.banner-text {
+  width: 50%;
+  background-image: url("/images/Group 14.png");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 700px 900px;
+}
+.banner-img {
+  width: 50%;
+}
+
+.banner-img img {
+  width: 95%;
+}
+
+.banner-text h3 {
+  color: #0b0223;
+  font-size: 48px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.banner-text h1 {
+  margin: 0px 0px;
+  font-size: 95px;
+  font-weight: 800;
+  background: linear-gradient(180deg, hsl(324, 94%, 63%) 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.icon-contaner {
+  color: #534c64;
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 40px;
+}
+
+.icon-contaner .fa-solid {
+  margin-right: 10px;
+  color: #ff42a5;
+}
+
+.banner-btn {
+  border: none;
+  padding: 16px 40px;
+  border-radius: 40px;
+  color: #fff;
+  background-color: #ff42a5;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.btn {
+  background-color: #4ec5f7;
+  margin-left: 10px;
+}
+/* banner design ends here */
+
+.gamer-contaner {
+  margin: 0 auto 0;
+  max-width: 1200px;
+  display: flex;
+}
+
+.gamer-img {
+  width: 50%;
+}
+.gamer-img img {
+  width: 600px;
+  height: 400px;
+}
+.gamer-text {
+  width: 50%;
+  text-align: end;
+  padding-right: 40px;
+}
+.gamer-text h1 {
+  font-size: 48px;
+  font-weight: 700;
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-bottom: 20px;
+}
+
+.gamer-text p {
+  margin-top: 0;
+  color: #534c64;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* gamer design ends here  */
+.online-game-section {
+  background-color: #fff;
+}
+
+.online-game-section h1 {
+  text-align: center;
+  color: #0b0223;
+  font-size: 40px;
+  font-weight: 700;
+  margin: 80px 0px 0px;
+}
+.funny-video {
+  background: linear-gradient(180deg, #f948b2 0%, #8758f1 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.online-game-section p {
+  text-align: center;
+  color: #534c64;
+  font-size: 16px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.funny-video-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  position: relative;
+}
+
+.funny-video-container img {
+  width: 280px;
+  height: 350px;
+  margin-right: 20px;
+}
+.funny-video-container .video-play {
+  color: #fff;
+  font-size: 60px;
+  position: absolute;
+  top: 35%;
+  left: 60%;
+}
+
+.funny-video-container p {
+  text-align: left;
+  color: #534c64;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+/* online game  design ends here  */
+
+.play-instantly-section {
+  max-width: 1100px;
+  margin-left: 34%;
+  margin-top: 70px;
+  display: flex;
+  gap: 130px;
+}
+.play-instantly-text-container {
+  width: 40%;
+}
+
+.play-instantly-text-container h1 {
+  text-align: right;
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.play-instantly-text-container p {
+  color: #534c64;
+  text-align: right;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.play-instantly-img-container {
+  width: 60%;
+  position: relative;
+}
+
+.play-instantly-img-container img {
+  width: 350px;
+  height: 400px;
+}
+
+.play-instantly-img-container .baby-img img {
+  width: 150px;
+  height: 170px;
+  position: absolute;
+  top: 69%;
+  right: 85%;
+}
+
+/* play-instantly-section ends  */
+.play-game-online-section {
+  max-width: 1100px;
+  margin-right: 34%;
+  margin-left: 10%;
+  margin-top: 70px;
+  display: flex;
+}
+
+.play-game-img-container {
+  width: 60%;
+  position: relative;
+}
+
+.play-game-img-container img {
+  width: 350px;
+  height: 400px;
+}
+.play-game-img-container .baby-img img {
+  width: 150px;
+  height: 170px;
+  position: absolute;
+  top: 69%;
+  left: 55%;
+}
+
+.play-game-text-container {
+  width: 40%;
+}
+
+.play-game-text-container h1 {
+  text-align: left;
+  font-size: 35px;
+  font-weight: 700;
+}
+
+.play-game-text-container p {
+  color: #534c64;
+  text-align: left;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+/* play game section ends  */
+
+.careers-section {
+  display: flex;
+  margin: 100px auto 0;
+  background: linear-gradient(90deg, #ff42a5 13.13%, #ff42a5 87.94%);
+}
+
+.careers-main-container {
+  width: 50%;
+  color: #fff;
+  width: 755px;
+  height: 565px;
+  padding: 20px 40px 50px 150px;
+}
+
+.careers-main-container h1 {
+  margin-bottom: 10px;
+  font-size: 48px;
+  font-weight: 700;
+}
+.careers-main-container p {
+  font-size: 14px;
+  font-weight: 100;
+  line-height: 25px;
+}
+.careers-img-container {
+  width: 50%;
+}
+
+.careers-img-container img {
+  width: 755px;
+  height: 565px;
+}
+
+.careers-text-container {
+  display: flex;
+}
+.careers-text-container p {
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 20px;
+}
+
+.careers-country-name {
+  text-align: end;
+}
+
+.careers-btn {
+  padding: 15px 30px;
+  border-radius: 50px;
+  border: none;
+  font-size: 16px;
+  font-weight: 600;
+  color: #ff42a5;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
+
+/* careers-section ends here  */
+.many-game-section {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 66, 165, 0.03) 13.73%,
+    rgba(255, 66, 165, 0.03) 87.94%
+  );
+}
+
+.many-game-container {
+  max-width: 1200px;
+  margin-left: 170px;
+  min-height: 250px;
+  padding-top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-content: center;
+  gap: 10px;
+}
+
+.many-game {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-basis: 230px;
+  background-color: #fff;
+  border-radius: 50px;
+}
+
+.many-game img {
+  width: 45px;
+  height: 45px;
+}
+
+.many-game h4 {
+  color: #0b0223;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* many game section ends  */
+.footer-container {
+  width: 0 auto;
+  height: 406px;
+  background: #0b0223;
+}
+
+.footer-logo {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  padding-left: 50%;
+  padding-top: 50px;
+}
+
+.footer-logo img {
+  width: 80.041px;
+  height: 30px;
+  margin: 32px 10px 0px 0px;
+}
+
+.footer-logo p {
+  font-size: 30px;
+  color: #fff;
+  font-weight: bold;
+}
+
+.footer-a {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.footer-a a {
+  color: #fff;
+  text-decoration: none;
+}
+.footer-icon {
+  display: flex;
+  justify-content: center;
+  gap: 35px;
+  color: #fff;
+  font-size: 35px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+.footer-p {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.footer-last-p {
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6);
+  font-size: 14px;
+  font-weight: 300;
+}
+
+/* footer section ends here  */

@@ -1,0 +1,211 @@
+/* @media screen and (max-width: 1100px) {
+  .funny-video-container {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+  }
+} */
+
+/* only 400px responsive */
+
+@media screen and (max-width: 400px) {
+  .nav-container {
+    flex-direction: column;
+  }
+  .nav-items-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .nav-items-container a {
+    margin-top: 20px;
+  }
+  .nav-items-container .login-btn {
+    width: 80%;
+    margin-bottom: 10px;
+  }
+  /* nav responsive ends  */
+  .banner-container {
+    flex-direction: column-reverse;
+  }
+  .banner-text,
+  .banner-img {
+    width: 100%;
+    padding: 10px 70px 30px;
+  }
+  .banner-text h3,
+  .banner-text h1 {
+    font-size: 30px;
+    margin-bottom: 20px;
+  }
+  .banner-btn {
+    padding: 10px 15px;
+  }
+  /* banner responsive ends  */
+  .gamer-contaner {
+    flex-direction: column;
+  }
+  .gamer-img,
+  .gamer-text {
+    width: 100%;
+    padding: 0 40px;
+  }
+  .gamer-img img {
+    width: 300px;
+    height: 200px;
+  }
+  .gamer-text h1 {
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+  }
+  .gamer-text p {
+    text-align: center;
+    font-size: 16px;
+  }
+  .btn-more {
+    margin-right: 90px;
+  }
+  /* gamer responsive ends  */
+  .online-game-section h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+  }
+  .online-game-section p {
+    text-align: center;
+    padding: 0 30px 0px 30px;
+    font-size: 16px;
+  }
+  .funny-video-container {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .funny-video-container img {
+    margin-left: 25px;
+  }
+  .funny-video-container .rectangle {
+    margin-left: 30px;
+  }
+  .funny-video-container .video-play {
+    display: none;
+  }
+  /* online responsive ends  */
+  .play-instantly-section {
+    flex-direction: column;
+    align-items: center;
+    margin-left: 0;
+    margin-top: 0;
+    gap: 0;
+  }
+  .play-instantly-text-container h1 {
+    font-size: 25px;
+    font-weight: 800;
+    text-align: center;
+    padding-left: 50px;
+  }
+  .play-instantly-text-container p {
+    text-align: center;
+    padding-left: 35px;
+  }
+  .play-instantly-text-container {
+    width: 100%;
+    padding-right: 40px;
+    text-align: center;
+    align-items: center;
+  }
+
+  .play-instantly-img-container img {
+    width: 250px;
+    height: 300px;
+    padding-left: 20px;
+  }
+  .play-instantly-img-container .baby-img img {
+    width: 100px;
+    height: 120px;
+  }
+  /* play instantly responsive ends */
+  .play-game-online-section {
+    flex-direction: column-reverse;
+    margin-top: 50px;
+  }
+  .play-game-img-container {
+    width: 100%;
+  }
+
+  .play-game-text-container {
+    width: 100%;
+  }
+  .play-game-img-container img {
+    width: 250px;
+    height: 300px;
+    padding-left: 20px;
+  }
+  .play-game-text-container h1 {
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    padding-left: 40px;
+  }
+  .play-game-text-container p {
+    padding-left: 40px;
+    line-height: 25px;
+    text-align: center;
+  }
+  /* play-game responsive ends  */
+  .careers-section {
+    flex-direction: column;
+  }
+  .careers-main-container {
+    width: 100%;
+    padding: 0;
+  }
+  .careers-img-container {
+    width: 100%;
+  }
+  .careers-img-container img {
+    width: 355px;
+    height: 365px;
+    padding-left: 20px;
+  }
+  .careers-main-container h1 {
+    font-size: 25px;
+    font-weight: 700;
+    padding: 0 25px;
+  }
+  .careers-main-container p {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+    padding: 0 25px;
+  }
+  .careers-text-container p {
+    font-size: 12px;
+    font-weight: 100;
+    line-height: 20px;
+  }
+  .careers-btn {
+    margin-left: 25px;
+  }
+  /* careers responsive ends  */
+  .many-game-container {
+    margin-top: 0;
+    margin-left: 0px;
+    text-align: center;
+  }
+  /* many game ends  */
+  .footer-a a {
+    display: none;
+  }
+  .footer-icon {
+    margin: 30px 30px;
+    gap: 20px;
+  }
+  .footer-p {
+    margin: 20px 30px;
+    gap: 20px;
+  }
+  .footer-last-p {
+    margin: 20px 25px;
+  }
+}
